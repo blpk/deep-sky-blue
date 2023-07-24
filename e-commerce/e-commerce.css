@@ -1,0 +1,126 @@
+#background{
+    background-image: url("background.jpg");
+}
+img{
+    position: absolute;
+
+    width: 40px;
+    height: 40px;
+}
+#o1:hover{
+    
+    animation-name: big1;
+    animation-duration: 2s;
+}
+#o2:hover{
+    
+    animation-name: big2;
+    animation-duration: 2s;
+}
+#o3:hover{
+    
+    animation-name: big3;
+    animation-duration: 2s;
+}
+#o4:hover{
+    
+    animation-name: big4;
+    animation-duration: 2s;
+}
+#o5:hover{
+    
+    animation-name: big5;
+    animation-duration: 2s;
+}
+
+@keyframes big1{
+    0%{
+        width: 40px;
+        height: 40px;
+    }
+    80%{
+        width: 80px;
+        height: 80px;
+    }
+    100%{
+        width: 100px ;
+        height: 100px;
+    }
+}
+@keyframes big2{
+    0%{
+        width: 40px;
+        height: 40px;
+    }
+    80%{
+        width: 80px;
+        height: 80px;
+    }
+    100%{
+        width: 100px ;
+        height: 100px;
+    }
+}
+@keyframes big3{
+    0%{
+        width: 40px;
+        height: 40px;
+    }
+    80%{
+        width: 80px;
+        height: 80px;
+    }
+    100%{
+        width: 100px ;
+        height: 100px;
+    }
+}
+@keyframes big4{
+    0%{
+        width: 40px;
+        height: 40px;
+    }
+    80%{
+        width: 80px;
+        height: 80px;
+    }
+    100%{
+        width: 100px ;
+        height: 100px;
+    }
+}
+@keyframes big5{
+    0%{
+        width: 40px;
+        height: 40px;
+    }
+    80%{
+        width: 80px;
+        height: 80px;
+    }
+    100%{
+        width: 100px ;
+        height: 100px;        
+    }
+}
+
+#o1{
+    top: 20%;
+    left: 10%;
+}
+#o2{
+    top: 60%;
+    left: 20%;
+}
+#o3{
+    top: 50%;
+    left: 80%;
+}
+#o4{
+    top: 50%;
+    left: 50%;
+}
+#o5{
+    top: 10%;
+    left: 70%;
+}
