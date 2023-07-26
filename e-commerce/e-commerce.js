@@ -13,15 +13,15 @@ function change2 () {
     object3.setAttribute ("src", "applewatchimage.png");
 }
 
-var object3=document.getElementById("o5");
-object3.addEventListener ("mouseover", change5, false);
+var object5=document.getElementById("o5");
+object5.addEventListener ("mouseover", change5, false);
 function change5 () {
     setTimeout (change25, 1500);
 }
-object3.addEventListener ("mouseleave", change15, false);
+object5.addEventListener ("mouseleave", change15, false);
 function change15 () {
-    object3.setAttribute ("src", "object5.png");
+    object5.setAttribute ("src", "object5.png");
 }
 function change25 () {
-    object3.setAttribute ("src", "applewatchimage.png");
+    object5.setAttribute ("src", "https://www.kicksonfire.com/wp-content/uploads/2022/10/Air-jordan-1-Lost-And-Found-Singles-Day-0.jpg");
 }
