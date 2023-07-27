@@ -1,3 +1,4 @@
+
 var imgs=document.getElementsByTagName("img");
 
 var object3=document.getElementById("o3");
@@ -11,6 +12,20 @@ function change1 () {
 }
 function change2 () {
     object3.setAttribute ("src", "applewatchimage.png");
+}
+
+var object4=document.getElementById("o4");
+object4.addEventListener("mouseover",change,false);
+function change(){
+    setTimeout(change2, 1500);
+}
+object4.addEventListener("mouseleave",change1,false);
+function change1(){
+    object4.setAttribute("src","object4.png");
+}
+
+function change2(){
+    object4.setAttribute("src","tft.jpg");
 }
 
 var object5=document.getElementById("o5");
