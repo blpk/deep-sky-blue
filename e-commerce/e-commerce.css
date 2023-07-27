@@ -7,7 +7,6 @@ img{
     width: 40px;
     height: 40px;
 }
-
 #o1:hover{
     
     animation-name: big1;
@@ -22,9 +21,6 @@ img{
     
     animation-name: big3;
     animation-duration: 2s;
-    object-fit: cover;
-
-
 }
 #o4:hover{
     
@@ -47,7 +43,7 @@ img{
         height: 80px;
     }
     100%{
-        width: 100px;
+        width: 100px ;
         height: 100px;
     }
 }
@@ -61,26 +57,12 @@ img{
         height: 80px;
     }
     100%{
-        width: 100px;
+        width: 100px ;
         height: 100px;
+        border-radius: 20%;
     }
 }
 @keyframes big3{
-    0%{
-        width: 40px;
-        height: 40px;
-    }
-    80%{
-        width: 70px;
-        height: 70px;
-    }
-   100%{
-        width: 100px;
-        height: 100px;
-    }
-}
-
-@keyframes big4{
     0%{
         width: 40px;
         height: 40px;
@@ -90,7 +72,22 @@ img{
         height: 80px;
     }
     100%{
-        width: 100px;
+        width: 100px ;
+        height: 100px;
+    }
+}
+@keyframes big4{
+    0%{
+        width: 40px;
+        height: 40px;
+    }
+    50%{
+        width: 80px;
+        height: 80px;
+        
+    }
+    100%{
+        width: 100px ;
         height: 100px;
     }
 }
@@ -101,10 +98,10 @@ img{
     }
     80%{
         width: 80px;
-        height: 50px;
+        height: 80px;
     }
     100%{
-        width: 100px;
+        width: 100px ;
         height: 100px;
     }
 }
