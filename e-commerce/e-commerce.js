@@ -23,5 +23,5 @@ function change15 () {
     object5.setAttribute ("src", "object5.png");
 }
 function change25 () {
-    object5.setAttribute ("src", "https://www.kicksonfire.com/wp-content/uploads/2022/10/Air-jordan-1-Lost-And-Found-Singles-Day-0.jpg");
+    object5.setAttribute ("src", "https://media.cnn.com/api/v1/images/stellar/prod/230314150437-04-nasa-spacesuit-history-eva.jpg?c=1x1");
 }
