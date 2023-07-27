@@ -15,16 +15,16 @@ function change2 () {
 }
 
 var object4=document.getElementById("o4");
-object4.addEventListener("mouseover",change,false);
-function change(){
-    setTimeout(change2, 1500);
+object4.addEventListener("mouseover",change4,false);
+function change4(){
+    setTimeout(change24, 1500);
 }
-object4.addEventListener("mouseleave",change1,false);
-function change1(){
+object4.addEventListener("mouseleave",change14,false);
+function change14(){
     object4.setAttribute("src","object4.png");
 }
 
-function change2(){
+function change24(){
     object4.setAttribute("src","tft.jpg");
 }
 
