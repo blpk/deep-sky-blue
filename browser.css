@@ -150,18 +150,6 @@ display: none;
     margin: 10px 0;
     display: inline-block;
   }
-  
-  .cable-config a:before {
-    height: 10px;
-    width: 15px;
-    border-radius: 50%;
-    border: 2px solid rgba(53, 142, 215, 0.5);
-    display: inline-block;
-    text-align: center;
-    line-height: 16px;
-    opacity: 0.5;
-    margin-right: 20px;
-  }
   .product-price {
     display: flex;
     align-items: center;
@@ -196,48 +184,4 @@ display: none;
     font-weight: 300;
     color: #43474D;
     margin-right: 20px;
-  }
-  .cart-btn {
-    display: inline-block;
-    background-color: #7DC855;
-    border-radius: 6px;
-    font-size: 16px;
-    color: #FFFFFF;
-    text-decoration: none;
-    padding: 12px 30px;
-    transition: all .5s;
-  }
-  .cart-btn:hover {
-    background-color: #64af3d;
-    width: 10px;
-  }
-
-  @media (max-width: 940px) {
-
-    .container {
-      flex-direction: column;
-      margin-top: 60px;
-    }
-   
-    .left-column,
-    .right-column {
-      width: 100%;
-      padding-right: 5em;
-    }
-   
-    .left-column img {
-      width: 300px;
-      right: 0;
-      top: -65px;
-      left: initial;
-      padding-right: 5em;
-    }
-  }
-   
-  @media (max-width: 535px) {
-    .left-column img {
-      width: 220px;
-      top: -85px;
-      padding-right: 5em;
-    }
   }
